@@ -4,7 +4,7 @@
 
 ![git-flow](https://wac-cdn.atlassian.com/dam/jcr:34c86360-8dea-4be4-92f7-6597d4d5bfae/02%20Feature%20branches.svg?cdnVersion=1783)
 
-参照 : https://www.atlassian.com/ja/git/tutorials/comparing-workflows/gitflow-workflow
+参照 : [https://www.atlassian.com/ja/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/ja/git/tutorials/comparing-workflows/gitflow-workflow)
 
 ### 各ブランチについて
 
@@ -42,7 +42,7 @@
 | |直接のプッシュ|変更されるタイミング|作成者|
 |-|-|-|-|
 |main|×|developとのマージ|-|
-|develop|×|初回プッシュ<br>featureとのマージ|開発リーダー|
+|develop|×<br><span style="font-size:10px;">*\* 初回プッシュのみ直接行う*</span>|初回プッシュ<br>featureとのマージ|開発リーダー|
 |feature|○|開発作業時|実装者|
 
 基本的に**feature以外のブランチでコミット、プッシュは禁止。**  
@@ -63,7 +63,7 @@ git checkout -b feature/issue-[0-9]
 
 ### developブランチの作成
 
-`yyyyMMdd`,は読み替えること。  
+`yyyyMMdd`は読み替えること。  
 
 ```bash
 # 親ブランチに移動
@@ -87,7 +87,7 @@ git push origin develop/yyyyMMdd
 - プレフィックスにハッシュ(#)とIssue番号をつけ、変更内容を記載  
 
 例 : `#1 javaのソースコード追加`  
-参照 : https://github.com/seattleconsulting-stock/seattle-library-training/commit/27326e6f263c43db682809d6f5cd5b80a5fafde7
+参照 : [https://github.com/seattleconsulting-stock/seattle-library-training/commit/27326e6f263c43db682809d6f5cd5b80a5fafde7](https://github.com/seattleconsulting-stock/seattle-library-training/commit/27326e6f263c43db682809d6f5cd5b80a5fafde7)
 
 ## Tips
 
