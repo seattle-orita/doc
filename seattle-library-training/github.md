@@ -5,7 +5,7 @@
 |項目|入力値|
 |-|-|
 |Title|タスクの内容が分かる文言|
-|Comment|<b>新規機能開発</b><ul><li>新規機能の概要</li><li>対応方針・内容など</li></ul><b>バグ対応</b><ul><li>調査結果（ログ・発生箇所・環境など）</li><li>対応内容</li></ul>|
+|Comment|新規機能開発 : `新規機能の概要・対応方針・内容など`<br>バグ対応 : `調査結果・ログ・発生箇所・環境・対応内容など`|
 |Assignees|タスクの担当者|
 |Labels|[GitHub公式ドキュメント](https://docs.github.com/ja/issues/using-labels-and-milestones-to-track-work/managing-labels#about-default-labels)に準ずる|
 |Projects|存在するProjectsを選択|
@@ -26,7 +26,7 @@ Issue作成者がクローズすること。
 |項目|入力値|
 |-|-|
 |Title|feature -> develop : `対象Issueのタイトルをコピー`<br>develop -> main : `merge develop/yyyyMMdd into main`|
-|Comment|<b>feature -> develop</b><ul><li>Issueのリンク(ハッシュとIssue番号)</li><li>変更内容</li><li>レビュー時に補足したい箇所</li></ul><b>develop -> main</b><ul><li>-</li></ul>|
+|Comment|feature -> develop : `Issueのリンク(ハッシュとIssue番号)・変更内容・レビュー時に補足したい箇所`<br>develop -> main : `-`|
 |Reviewers|開発リーダー|
 |Assignees|実装担当者|
 |Labels|-|
